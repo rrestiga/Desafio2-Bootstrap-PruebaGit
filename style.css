@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+    background-color: black;
+    font-family: sans-serif;
+}
+.BarraNav-Flex{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+
+}
+.LinkBarraNav-Flex{
+    display: flex;
+    align-items: center;   
+    position: relative;
+    justify-content: flex-end;
+}
+.LinkBarraNav-Flex a {
+    margin: 0 0.5rem;
+    color: aliceblue;
+    padding: 14px 20pt;
+    text-decoration: none;
+}
+.LinkBarraNav-Flex a:hover{
+    color: rgb(182, 21, 21);
+    background-color: rgb(34, 34, 194);
+}
+.Titulo{
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    align-items: center;
+}
+.SubTitulo{
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.Tarjeta{
+    background-color: rgb(15, 15, 15);
+    width: 200px;
+    min-width: 150px;
+    height: 250;
+    color: aliceblue;
+    margin: 1rem;
+}
+.Tarjeta h4, .Tarjeta p{
+    border-bottom: aliceblue 1px solid;
+}
+.Tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Tarjeta img{
+    width: 100%;
+    align-items: center;
+}
+.Tarjeta h4{
+    font-size: 1.5rem;
+
+}
+.Personajes{
+    display: flex;
+    align-items: center;
+    
+}
+#logopersonajes{
+    position: absolute;
+
+}
+.Footer_Legal{
+    width: 100%;
+    height: 40px;
+    color: aliceblue;
+    font-style: normal;
+    text-align: center;
+}
+
+.Footer_Social{
+    color: aliceblue;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.inline-block{
+    display: inline-block;
+}
